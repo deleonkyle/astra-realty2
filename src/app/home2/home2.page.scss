@@ -1,0 +1,43 @@
+#notification-button {            
+    position: relative;
+    width: 42px;
+    top:1px;
+    right: 1px;
+    overflow: visible!important;
+    background-color: white;
+}
+
+
+#notifications-badge {
+    background-color: red;
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    border-radius: 100%;
+}
+ion-card {
+    --background: #f0f0f0;
+    --color: #000000;
+  }
+  
+  ion-card-title {
+    --color: #000000;
+  }
+  
+  ion-card-subtitle {
+    --color: #000000;
+  }
+  ion-button {
+    --background: #0e6dac;
+    --background-hover: #9ce0be;
+    --background-activated: #88f4be;
+    --background-focused: #88f4be;
+    --border-color: #000;
+
+    position: relative;
+    margin:auto;
+    margin-top: 20px;
+    margin-left: 150px;;
+    
+  }
+  

@@ -1,0 +1,30 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Home</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Home</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-item>
+    <ion-avatar slot="start">
+      <img alt="user icon" src="assets\icon\user.png" />
+    </ion-avatar>
+    <ion-label> Enahs Roag </ion-label>
+  </ion-item>
+  <ion-searchbar show-clear-button="always" placeholder="Search"></ion-searchbar>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Manors Upstate</ion-card-title>
+    </ion-card-header>
+    <img alt="house" src="assets\houses\house1.jpg" />
+    <ion-card-content>
+      Bay shares a shoreline with the famous Laguna de Bay, the country’s largest freshwater lake. Its coast serves not only as a gateway to tourism, but is also one of the main fishing points south of Metro Manila.
+  <ion-button [routerLink]="['/house1details']">Details</ion-button>
+</ion-card-content>
+</ion-card>
+

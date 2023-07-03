@@ -1,0 +1,54 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>sign-up</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Sign-Up</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <div id="container"> 
+    <ion-item>         
+      <ion-input           
+      label="Username"           
+      labelPlacement="stacked"           
+      [clearOnEdit]="true"           
+      [clearInput]="true"           
+      placeholder="Input username"         >         
+    </ion-input>       
+  </ion-item>  
+  <ion-item>         
+    <ion-input           
+    label="Email"           
+    labelPlacement="stacked"           
+    [clearOnEdit]="true"           
+    [clearInput]="true"           
+    placeholder="john@example.com"         >         
+  </ion-input>       
+</ion-item>               
+  <ion-item>         
+    <ion-input           
+    label="Password"           
+    labelPlacement="stacked"           
+    type="password"           
+    [clearInput]="true"           
+    placeholder="Input password"         >                            
+</ion-input>
+</ion-item>
+<ion-item>         
+  <ion-input           
+  label="Confirm Password"           
+  labelPlacement="stacked"           
+  type="password"           
+  [clearInput]="true"           
+  placeholder="Confirm password"         >                            
+</ion-input>
+</ion-item>
+<ion-button [routerLink]="['/home']"> Sign up</ion-button> 
+<p>Already have an account? Login</p>
+</div>       
+
+
